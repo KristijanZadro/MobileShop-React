@@ -1,0 +1,342 @@
+body{
+    background-color: whitesmoke;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: royalblue;
+}
+
+.title{
+    color: white;
+}
+
+.my-cart-icon{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: royalblue;
+    margin-right: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.my-cart-icon:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1pt solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.my-cart-icon svg{
+    margin-right: 3px;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+/* end of navbar */
+
+/* Product list */
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    width: 80%;
+}
+
+/* end of Product list */
+
+/* Product */
+
+.product{
+    width: 22%;
+    height: 350px;
+    margin: 20px auto;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-container{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+
+.img-container img{
+    width: 100%;
+    height: 250px;
+    
+}
+
+.product img:hover{
+    transform: scale(1.06);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-top: 1pt solid lightgrey;
+    height: 65px;
+}
+
+.info span{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.card-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: royalblue;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: none;
+    transform: translate(100%,-100%);
+    padding: 3px;
+    transition: all 0.3s linear;
+}
+
+.card-icon:disabled{
+    background-color: grey;
+}
+
+.card-icon svg{
+    width: 1.4em;
+    height: 1.4em;
+}
+
+.img-container:hover .card-icon{
+    transform: translate(0,0);
+}
+
+/* end of Product */
+
+/* title */
+
+.products-title{
+    color: royalblue;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* end of title */
+
+/* loading */
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* end of loading */
+
+/* filter list */
+
+.list-filter{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form-group{
+    margin: 30px;
+}
+
+.form-control{
+    margin: 10px;
+}
+
+.form-group label{
+    text-transform: capitalize;
+    font-size: large;
+}
+
+/* end of filter list */
+
+/* modal */
+
+.modal{
+    background-color: royalblue;
+    width: 400px;
+    height: 530px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.button{
+    width: 85px;
+    height: 40px;
+    background-color: white;
+    color: royalblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    outline: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1pt solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.modal h2{
+    color: white;
+}
+
+.modal h3{
+    color: white;
+}
+
+/* end of modal */
+
+/* details */
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.title-details{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.button-details{
+    width: 85px;
+    height: 40px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: capitalize;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    outline: none;
+}
+
+.button-details:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1pt solid royalblue;
+    border-radius: 5px;
+    color: royalblue;
+}
+
+/* end of details */
+
+/* default */
+
+.default{
+    text-align: center;
+    color: royalblue;
+}
+
+/* end of default */
+
+/* responsive */
+
+@media only screen and (max-width: 1300px){
+    .products-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 30%;
+        margin: 10px;
+    }
+
+}
+@media only screen and (max-width: 980px){
+    .products-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 43%;
+        margin: 20px;
+    }
+
+}
+@media only screen and (max-width: 730px){
+    .products-list{
+        display: flex;
+        justify-content: center;
+    }
+    .product{
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 650px){
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media only screen and (max-width: 610px){
+    .product{
+        width: 60%;
+    }
+
+}
