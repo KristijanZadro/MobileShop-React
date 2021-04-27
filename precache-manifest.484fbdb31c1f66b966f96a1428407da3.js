@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3ea8bc34128c8e8f026521396dedd7a",
+    "revision": "a864377b39440f00cfe9cccd5989450b",
     "url": "/MobileShop-React/index.html"
   },
   {
-    "revision": "2ed7a544df6988de9641",
+    "revision": "309e20c63dfebbe1eab4",
     "url": "/MobileShop-React/static/css/main.ac2c87e3.chunk.css"
   },
   {
-    "revision": "720b49622b0667d05743",
-    "url": "/MobileShop-React/static/js/2.5bbba38d.chunk.js"
+    "revision": "35fb194c2333545a9698",
+    "url": "/MobileShop-React/static/js/2.8e55bb45.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/MobileShop-React/static/js/2.5bbba38d.chunk.js.LICENSE.txt"
+    "url": "/MobileShop-React/static/js/2.8e55bb45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ed7a544df6988de9641",
-    "url": "/MobileShop-React/static/js/main.492c1c35.chunk.js"
+    "revision": "309e20c63dfebbe1eab4",
+    "url": "/MobileShop-React/static/js/main.2c2c480c.chunk.js"
   },
   {
     "revision": "a817b66f531cbc2a1c33",
