@@ -6,8 +6,8 @@ import '../App.css'
 export default class Details extends Component {
     static contextType = ProductContext;
     render() {
-        const {openModal,addToCart} = this.context
-        const {id,title,img,company,price,info,inCart} = this.props.location.state.product
+        const {openModal,addToCart, detailProduct} = this.context
+        const {id,title,img,company,price,info,inCart} = detailProduct
         
         return (
             <div className="details">
@@ -16,7 +16,7 @@ export default class Details extends Component {
                 </div> 
                 <div className="product-info">
                     <div className="left">
-                        <img src={'../' + img} alt="img" />
+                        <img src={process.env.PUBLIC_URL + img} alt="img" />
                     </div>
                     <div className="right">
                         <h3><span>Model: </span>{title}</h3>

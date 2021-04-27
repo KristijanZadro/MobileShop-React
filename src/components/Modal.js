@@ -17,18 +17,17 @@ export default class Modal extends Component {
                         return(
                             <div className="modal">
                                 <h2>Item added to the cart</h2>
-                                <img src={'../' + img} alt="product-img" width="250" height="250" />
+                                <img src={process.env.PUBLIC_URL + img} alt="product-img" width="250" height="250" />
                                 <h3>{title}</h3>
                                 <h3>price: ${price}</h3>
                                 <div className="buttons">
-                                    <Link to="/" style={{textDecoration: "none"}}>
-                                        <button 
-                                            className="button"
-                                            onClick={()=> closeModal()}
-                                        >
-                                            continue shopping
-                                        </button>
-                                    </Link>
+                                    <button 
+                                        className="button"
+                                        onClick={()=> closeModal()}
+                                    >
+                                        continue shopping
+                                    </button>
+                                  
                                     <Link to="/cart" style={{textDecoration: "none"}}>
                                         <button 
                                             className="button"

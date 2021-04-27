@@ -19,12 +19,10 @@ export default function Product({product}) {
                                 onClick={()=> value.handleDetails(id)}
                             >
                                 <Link to={{
-                                    pathname: `/details/${id}`,
-                                    state: {product}
-
+                                    pathname: `/details/${id}`
                                 }}>
                                     <img 
-                                        src={img} 
+                                        src={process.env.PUBLIC_URL + img} 
                                         alt="mobile" 
                                     />
                                 </Link>

@@ -14,7 +14,7 @@ export default function CartProduct({product}) {
                         <tbody>
                             <tr>
                                 <td>
-                                    <img src={img} alt="img" width="50" height="50" />
+                                    <img src={process.env.PUBLIC_URL + img} alt="img" width="50" height="50" />
                                 </td>
                                 <td>{title}</td>
                                 <td>${price}</td>
