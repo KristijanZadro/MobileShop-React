@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MobileShop-React/static/css/main.ac2c87e3.chunk.css",
+    "main.js": "/MobileShop-React/static/js/main.492c1c35.chunk.js",
+    "main.js.map": "/MobileShop-React/static/js/main.492c1c35.chunk.js.map",
+    "runtime-main.js": "/MobileShop-React/static/js/runtime-main.445ac9ca.js",
+    "runtime-main.js.map": "/MobileShop-React/static/js/runtime-main.445ac9ca.js.map",
+    "static/js/2.5bbba38d.chunk.js": "/MobileShop-React/static/js/2.5bbba38d.chunk.js",
+    "static/js/2.5bbba38d.chunk.js.map": "/MobileShop-React/static/js/2.5bbba38d.chunk.js.map",
+    "index.html": "/MobileShop-React/index.html",
+    "precache-manifest.750f52d135b6bb8fc0e7e5e43ca047f7.js": "/MobileShop-React/precache-manifest.750f52d135b6bb8fc0e7e5e43ca047f7.js",
+    "service-worker.js": "/MobileShop-React/service-worker.js",
+    "static/css/main.ac2c87e3.chunk.css.map": "/MobileShop-React/static/css/main.ac2c87e3.chunk.css.map",
+    "static/js/2.5bbba38d.chunk.js.LICENSE.txt": "/MobileShop-React/static/js/2.5bbba38d.chunk.js.LICENSE.txt",
+    "static/media/loading-arrow.gif": "/MobileShop-React/static/media/loading-arrow.e9ea7394.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.445ac9ca.js",
+    "static/js/2.5bbba38d.chunk.js",
+    "static/css/main.ac2c87e3.chunk.css",
+    "static/js/main.492c1c35.chunk.js"
+  ]
+}
